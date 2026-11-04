@@ -1,0 +1,215 @@
+[
+  {
+    "slug": "ai-precision-pharmacology",
+    "number": "NOW",
+    "category": "CURRENT RESEARCH PROGRAMME",
+    "title": "AI for precision pharmacology",
+    "summary": "Bringing treatment histories, pharmacological knowledge and patient information together to study treatment trajectories and outcomes.",
+    "status": "Programme in development",
+    "tags": [
+      "Representation learning",
+      "Treatment forecasting",
+      "Clinical AI"
+    ],
+    "question": "How can AI represent the changing relationship between a patient, their treatment and the knowledge we have about a drug?",
+    "body": [
+      "The central question of my research is how drugs work and why patients respond differently. My current AI programme develops computational approaches to investigate that question, connecting pharmacological knowledge with patient histories and treatment outcomes.",
+      "My current programme connects five research strands of my research: biomedical information extraction, pharmacological knowledge representation, pharmacoepidemiology, longitudinal patient modelling and pharmacogenomics.",
+      "I am exploring foundation-model approaches to quantitative treatment histories, alongside drug representations informed by pharmacological knowledge. A central question is whether knowledge of mechanisms, targets and metabolism adds measurable value to outcome modelling.",
+      "The initial focus is antidepressant treatment: representing drug identity and dose, forecasting treatment changes, and evaluating clinically meaningful outcomes such as reported benefit and adverse effects. Pharmacogenomics and patient characteristics are part of the wider research direction."
+    ],
+    "approach": [
+      "Develop representations of drug identity, quantitative dose and longitudinal patient histories.",
+      "Benchmark pharmacological and graph-informed drug representations against drug-identity and classification-based baselines.",
+      "Evaluate treatment forecasting and outcome models with held-out data, careful phenotype definitions and explicit checks for information leakage."
+    ],
+    "perspective": "The programme is in development. Its model architectures and proposed clinical applications are research aims; the linked publications provide foundations for the work.",
+    "colour": "lavender",
+    "featured": true,
+    "art": "ai-precision-pharmacology",
+    "artLabel": "Connecting data, knowledge & learning",
+    "publicationIds": [
+      "dinto",
+      "presner",
+      "inpatient",
+      "antidepressants"
+    ],
+    "publicationHeading": "Foundations for this programme"
+  },
+  {
+    "slug": "treatment-trajectories",
+    "number": "01",
+    "category": "LONGITUDINAL PATIENT MODELLING & STRATIFICATION",
+    "title": "Understanding patient trajectories and stratification",
+    "summary": "Learning interpretable states and patient groups from longitudinal clinical observations and prescribing histories.",
+    "status": "Established research area",
+    "tags": [
+      "Patient trajectories",
+      "Stratification",
+      "Clinical phenotyping"
+    ],
+    "question": "What do longitudinal clinical and prescribing patterns reveal about patient heterogeneity and treatment?",
+    "body": [
+      "My work uses longitudinal clinical and medication records to learn interpretable representations of patient experience.",
+      "In older adult inpatients, hidden Markov models represented daily laboratory and vital-sign trajectories as clinically interpretable states. The published study explored relationships with diagnoses and inpatient mortality, alongside predictive models trained on the original time-series data.",
+      "In antidepressant prescribing, hidden Markov models and clustering identified trajectory-derived patient groups across UK Biobank and Danish cohorts. Clinical characterisation and genetic analyses investigated heterogeneity and reproducibility."
+    ],
+    "approach": [
+      "Represent clinical observations and medication exposure as longitudinal trajectories.",
+      "Learn interpretable states and patient groups using hidden Markov models and clustering.",
+      "Characterise clinical differences and investigate genetic associations, reproducibility and prediction."
+    ],
+    "perspective": "Prescribing records reflect many influences, including indication, tolerability, access and clinical decisions. They provide information about treatment experience, but do not directly measure symptom response or remission.",
+    "colour": "sage",
+    "art": "treatment-trajectories",
+    "artLabel": "Patterns over time",
+    "publicationIds": [
+      "antidepressants",
+      "inpatient"
+    ],
+    "shortTitle": "Longitudinal modelling",
+    "disciplineTitle": "Longitudinal patient modelling & stratification"
+  },
+  {
+    "slug": "medication-safety",
+    "number": "02",
+    "category": "PHARMACOEPIDEMIOLOGY & MEDICATION SAFETY",
+    "title": "Studying medicines in real-world care",
+    "summary": "Using routinely collected health data to investigate medication exposure, potential therapeutic effects and adverse outcomes.",
+    "status": "Established research area",
+    "tags": [
+      "Pharmacoepidemiology",
+      "Medication safety",
+      "Observational research"
+    ],
+    "question": "What can routinely collected health records tell us about the effects and safety of medicines?",
+    "body": [
+      "My pharmacoepidemiological work examines medication exposure and clinical outcomes using routinely collected data.",
+      "Studies of minocycline explored potential relationships between adolescent exposure for acne and psychiatric outcomes, using a historical cohort and a self-controlled case series. These studies did not establish a protective effect against severe psychiatric outcomes.",
+      "Work on anticholinergic burden examined prescribing patterns from hospital admission to discharge, variation across specialties and associations with mortality in older adults."
+    ],
+    "approach": [
+      "Define medication exposures and clinically relevant outcomes in electronic health records.",
+      "Apply study designs suited to the question, including cohort studies and self-controlled case series.",
+      "Interpret associations with attention to confounding, measurement error and clinical context."
+    ],
+    "perspective": "Observational associations require careful interpretation. Exposure definitions, comparator selection and clinical context shape what we can conclude about a medicine.",
+    "colour": "sage",
+    "art": "treatment-trajectories",
+    "artLabel": "Exposure, outcomes & interpretation",
+    "publicationIds": [
+      "anticholinergic",
+      "minocycline-cohort",
+      "minocycline-sccs"
+    ],
+    "shortTitle": "Medication effects & safety",
+    "disciplineTitle": "Pharmacoepidemiology & medication safety"
+  },
+  {
+    "slug": "pharmacological-knowledge",
+    "number": "03",
+    "category": "PHARMACOLOGICAL KNOWLEDGE REPRESENTATION & REASONING",
+    "title": "Making pharmacological knowledge computable",
+    "summary": "Representing drug relationships, interaction mechanisms and evidence so they can support computational reasoning.",
+    "status": "Established research area",
+    "tags": [
+      "Ontologies",
+      "Semantic reasoning",
+      "Drug interactions"
+    ],
+    "question": "How can we represent what we know about medicines so computers can reason about their relationships and mechanisms?",
+    "body": [
+      "My research in pharmacological knowledge representation includes formal ontologies, conceptual models and information models for drug–drug interactions.",
+      "DINTO combines an OWL ontology with SWRL rules to infer drug–drug interactions and their mechanisms. Related work reviewed conceptual models of the interaction domain and contributed to a minimal information model for describing potential interactions and their supporting evidence.",
+      "This established work informs my current interest in knowledge graphs and drug representations. The newer question is how these representations can contribute to models of treatment experience and outcomes."
+    ],
+    "approach": [
+      "Formalise pharmacological entities, interaction mechanisms and their relationships.",
+      "Use semantic representations and rules to support computational inference.",
+      "Represent evidence and clinical context consistently so knowledge can be exchanged and reused."
+    ],
+    "perspective": "Formal reasoning and learned representations offer different ways to use domain knowledge. Their contribution needs to be evaluated against the scientific task and the quality of the underlying evidence.",
+    "colour": "peach",
+    "art": "pharmacological-knowledge",
+    "artLabel": "Relationships, mechanisms & evidence",
+    "publicationIds": [
+      "dinto",
+      "conceptual-models",
+      "minimal-model"
+    ],
+    "shortTitle": "Knowledge & reasoning",
+    "disciplineTitle": "Pharmacological knowledge representation & reasoning"
+  },
+  {
+    "slug": "genetics-pharmacogenomics",
+    "number": "04",
+    "category": "GENETICS & PHARMACOGENOMICS",
+    "disciplineTitle": "Genetics & pharmacogenomics",
+    "shortTitle": "Genetics & pharmacogenomics",
+    "title": "Investigating genetic differences in treatment",
+    "summary": "Investigating the genetic architecture of medication exposure, treatment-derived phenotypes and dose changes.",
+    "status": "Research area",
+    "tags": [
+      "Pharmacogenomics",
+      "Genetic architecture",
+      "Treatment heterogeneity"
+    ],
+    "question": "How does genetic variation relate to differences in medication exposure and treatment experience?",
+    "body": [
+      "My pharmacogenomics research connects genetic variation with phenotypes derived from real-world prescribing records.",
+      "The antidepressant trajectory study investigates the heritability and shared genetic architecture of treatment-derived patient groups across UK and Danish cohorts. Associations near CYP2D6 also motivate investigation of drug metabolism as one contributor to variation in medication exposure.",
+      "Collaborative work examines genome-wide associations with dose changes during concurrent in-hospital drug therapy. Together, these studies connect prescribing patterns with questions about individual differences in treatment."
+    ],
+    "approach": [
+      "Define medication-exposure and treatment-pattern phenotypes from longitudinal prescribing data.",
+      "Investigate genetic associations, heritability and shared architecture across treatment-derived phenotypes.",
+      "Interpret associations in the context of drug metabolism, clinical heterogeneity and the limitations of prescribing-derived outcomes."
+    ],
+    "perspective": "Genetic associations with prescribing patterns do not directly establish treatment efficacy or an individual’s response. They provide evidence for further pharmacological investigation and independent validation.",
+    "colour": "lavender",
+    "art": "ai-precision-pharmacology",
+    "artLabel": "Genetic variation & treatment",
+    "publicationIds": [
+      "antidepressants",
+      "concurrent-dosage"
+    ]
+  },
+  {
+    "slug": "biomedical-nlp",
+    "number": "05",
+    "category": "BIOMEDICAL NLP & MEDICATION INFORMATION EXTRACTION",
+    "title": "From biomedical text to usable data",
+    "summary": "Developing annotated resources, evaluation benchmarks and models to extract medication information from literature and health records.",
+    "status": "Established research area",
+    "tags": [
+      "Biomedical NLP",
+      "Information extraction",
+      "Benchmarking"
+    ],
+    "question": "How can we turn biomedical language and prescription records into reliable, structured information?",
+    "body": [
+      "My work in biomedical natural language processing spans annotated resources, shared-task evaluation and information-extraction methods for pharmacological texts.",
+      "The DDI corpus and DDIExtraction shared task supported the recognition of pharmacological substances and extraction of drug–drug interactions. Related work examined annotation decisions and the use of domain ontologies in NLP.",
+      "More recently, the PRESNER preprint describes a transformer-based pipeline for extracting medication information from prescription records and mapping drugs to the ATC classification."
+    ],
+    "approach": [
+      "Build and document annotated resources for drug names, medication attributes and drug–drug interactions.",
+      "Evaluate information-extraction methods using shared benchmarks and explicit annotation guidelines.",
+      "Apply transformer-based extraction and classification to real-world prescription records."
+    ],
+    "perspective": "Reliable downstream research depends on how well source information is captured. Annotation choices, terminology mapping and validation are part of the scientific method.",
+    "colour": "blue",
+    "art": "reusable-health-data",
+    "artLabel": "Language, annotation & extraction",
+    "publicationIds": [
+      "presner",
+      "ddi-corpus",
+      "semeval",
+      "ddi-lessons",
+      "ontology-nlp",
+      "annotation"
+    ],
+    "shortTitle": "Biomedical NLP",
+    "disciplineTitle": "Biomedical NLP & medication information extraction"
+  }
+]

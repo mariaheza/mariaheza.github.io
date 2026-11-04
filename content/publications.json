@@ -1,0 +1,177 @@
+[
+  {
+    "id": "ddi-corpus",
+    "area": "biomedical-nlp",
+    "title": "The DDI corpus: An annotated corpus with pharmacological substances and drug–drug interactions",
+    "year": 2013,
+    "authors": "Herrero-Zazo M, Segura-Bedmar I, Martínez P, Declerck T.",
+    "venue": "Journal of Biomedical Informatics",
+    "type": "Journal article",
+    "url": "https://doi.org/10.1016/j.jbi.2013.07.011"
+  },
+  {
+    "id": "annotation",
+    "area": "biomedical-nlp",
+    "title": "Annotation Issues in Pharmacological Texts",
+    "year": 2013,
+    "authors": "Herrero-Zazo M, Segura-Bedmar I, Martínez P.",
+    "venue": "Procedia – Social and Behavioral Sciences",
+    "type": "Conference paper",
+    "url": "https://doi.org/10.1016/j.sbspro.2013.10.641"
+  },
+  {
+    "id": "semeval",
+    "area": "biomedical-nlp",
+    "title": "SemEval-2013 Task 9: Extraction of Drug-Drug Interactions from Biomedical Texts (DDIExtraction 2013)",
+    "year": 2013,
+    "authors": "Segura-Bedmar I, Martínez P, Herrero-Zazo M.",
+    "venue": "Proceedings of SemEval 2013",
+    "type": "Conference paper",
+    "url": "https://aclanthology.org/S13-2056/"
+  },
+  {
+    "id": "ddi-lessons",
+    "area": "biomedical-nlp",
+    "title": "Lessons learnt from the DDIExtraction-2013 Shared Task",
+    "year": 2014,
+    "authors": "Segura-Bedmar I, Martínez P, Herrero-Zazo M.",
+    "venue": "Journal of Biomedical Informatics",
+    "type": "Journal article",
+    "url": "https://doi.org/10.1016/j.jbi.2014.05.007"
+  },
+  {
+    "id": "ontology-nlp",
+    "area": "biomedical-nlp",
+    "secondaryAreas": [
+      "pharmacological-knowledge"
+    ],
+    "title": "Application of Domain Ontologies to Natural Language Processing: A Case Study for Drug-Drug Interactions",
+    "year": 2015,
+    "authors": "Herrero-Zazo M, Segura-Bedmar I, Hastings J, Martínez P.",
+    "venue": "International Journal of Information Retrieval Research",
+    "type": "Journal article",
+    "url": "https://doi.org/10.4018/ijirr.2015070102"
+  },
+  {
+    "id": "presner",
+    "area": "biomedical-nlp",
+    "title": "Automated Extraction and Classification of Drug Prescriptions in Electronic Health Records: Introducing the PRESNER Pipeline",
+    "year": 2023,
+    "authors": "Colón-Ruiz C, Fitzgerald T, Segura-Bedmar I, Birney E, Herrero-Zazo M.",
+    "venue": "medRxiv",
+    "type": "Preprint",
+    "url": "https://doi.org/10.1101/2023.10.04.23296481"
+  },
+  {
+    "id": "dinto",
+    "area": "pharmacological-knowledge",
+    "title": "DINTO: Using OWL Ontologies and SWRL Rules to Infer Drug–Drug Interactions and Their Mechanisms",
+    "year": 2015,
+    "authors": "Herrero-Zazo M, Segura-Bedmar I, Hastings J, Martínez P.",
+    "venue": "Journal of Chemical Information and Modeling",
+    "type": "Journal article",
+    "url": "https://doi.org/10.1021/acs.jcim.5b00119"
+  },
+  {
+    "id": "conceptual-models",
+    "area": "pharmacological-knowledge",
+    "title": "Conceptual models of drug-drug interactions: A summary of recent efforts",
+    "year": 2016,
+    "authors": "Herrero-Zazo M, Segura-Bedmar I, Martínez P.",
+    "venue": "Knowledge-Based Systems",
+    "type": "Journal article",
+    "url": "https://doi.org/10.1016/j.knosys.2016.10.006"
+  },
+  {
+    "id": "minimal-model",
+    "area": "pharmacological-knowledge",
+    "title": "A Minimal Information Model for Potential Drug-Drug Interactions",
+    "year": 2021,
+    "authors": "Hochheiser H et al.",
+    "venue": "Frontiers in Pharmacology",
+    "type": "Journal article",
+    "url": "https://doi.org/10.3389/fphar.2020.608068",
+    "note": "Published 8 March 2021; volume 11 (2020)."
+  },
+  {
+    "id": "minocycline-cohort",
+    "area": "medication-safety",
+    "title": "Examining the potential preventative effects of minocycline prescribed for acne on the incidence of severe mental illnesses: A historical cohort study",
+    "year": 2018,
+    "authors": "Herrero-Zazo M, Brauer R, Gaughran F, Howard LM, Taylor D, Barlow DJ.",
+    "venue": "Journal of Psychopharmacology",
+    "type": "Journal article",
+    "url": "https://doi.org/10.1177/0269881117743483",
+    "note": "First published online in December 2017; journal issue 2018."
+  },
+  {
+    "id": "minocycline-sccs",
+    "area": "medication-safety",
+    "title": "Minocycline and the risk of acute psychiatric events in adolescence: A self-controlled case series",
+    "year": 2019,
+    "authors": "Brauer R, Herrero-Zazo M, Barlow DJ, Gaughran F, Taylor D, Howard LM.",
+    "venue": "Journal of Psychopharmacology",
+    "type": "Journal article",
+    "url": "https://doi.org/10.1177/0269881118821852"
+  },
+  {
+    "id": "anticholinergic",
+    "area": "medication-safety",
+    "title": "Anticholinergic burden in older adult inpatients: patterns from admission to discharge and associations with hospital outcomes",
+    "year": 2021,
+    "authors": "Herrero-Zazo M, Berry R, Bines E, Bhattacharya D, Myint PK, Keevil VL.",
+    "venue": "Therapeutic Advances in Drug Safety",
+    "type": "Journal article",
+    "url": "https://doi.org/10.1177/20420986211012592"
+  },
+  {
+    "id": "inpatient",
+    "area": "treatment-trajectories",
+    "title": "Using machine learning to model older adult inpatient trajectories from electronic health records data",
+    "year": 2023,
+    "authors": "Herrero-Zazo M et al.",
+    "venue": "iScience",
+    "type": "Journal article",
+    "url": "https://doi.org/10.1016/j.isci.2022.105876",
+    "note": "Journal issue January 2023; published online in December 2022.",
+    "versions": [
+      {
+        "label": "Earlier medRxiv preprint (2021)",
+        "url": "https://doi.org/10.1101/2021.06.18.21258885"
+      },
+      {
+        "label": "Earlier SSRN version (2022)",
+        "url": "https://doi.org/10.2139/ssrn.4111604"
+      }
+    ]
+  },
+  {
+    "id": "antidepressants",
+    "area": "treatment-trajectories",
+    "title": "Clinical and Biological Stratification in 121,560 Antidepressant Prescription Trajectories using Unsupervised Modelling and Clustering",
+    "year": 2024,
+    "authors": "Herrero-Zazo M et al.",
+    "venue": "medRxiv",
+    "type": "Preprint",
+    "url": "https://doi.org/10.1101/2024.12.17.24319152",
+    "secondaryAreas": [
+      "genetics-pharmacogenomics"
+    ]
+  },
+  {
+    "id": "concurrent-dosage",
+    "area": "genetics-pharmacogenomics",
+    "title": "Genome-wide associations spanning 194 in-hospital drug dosage change phenotypes highlight diverse genetic backgrounds in concurrent drug therapy",
+    "year": 2025,
+    "authors": "Henriksen AP et al.",
+    "venue": "Computational and Structural Biotechnology Journal",
+    "type": "Journal article",
+    "url": "https://doi.org/10.1016/j.csbj.2025.06.042",
+    "versions": [
+      {
+        "label": "Earlier medRxiv preprint (2025)",
+        "url": "https://doi.org/10.1101/2025.02.04.25321575"
+      }
+    ]
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "id": "mechanism-match",
+    "label": "Mechanism–aetiology matching",
+    "description": "Relating a drug’s mechanism of action to the biological aetiology of a patient’s condition.",
+    "icon": "<circle cx=\"9\" cy=\"12\" r=\"6\"/><circle cx=\"15\" cy=\"12\" r=\"6\"/><path d=\"m9 12 2 2 4-4\"/>"
+  },
+  {
+    "id": "stratification",
+    "label": "Biomarkers & stratification",
+    "description": "Identifying biological and clinical characteristics that distinguish treatment-relevant patient groups.",
+    "icon": "<circle cx=\"6\" cy=\"6\" r=\"2\"/><circle cx=\"18\" cy=\"6\" r=\"2\"/><circle cx=\"6\" cy=\"18\" r=\"2\"/><circle cx=\"18\" cy=\"18\" r=\"2\"/><path d=\"M6 8v8m12-8v8M8 6h8M8 18h8\"/>"
+  },
+  {
+    "id": "pharmacogenomics",
+    "label": "Pharmacogenomics",
+    "description": "Investigating genetic influences on drug exposure, benefit and adverse effects.",
+    "icon": "<path d=\"M7 2c0 10 10 10 10 20M17 2C17 12 7 12 7 22M7 3h10M8 7h8M8 17h8M7 21h10M10 11h4\"/>"
+  },
+  {
+    "id": "precision-dosing",
+    "label": "Precision dosing",
+    "description": "Tailoring dose and regimen to patient characteristics and drug exposure.",
+    "icon": "<path d=\"M4 18h16M6 15V9m6 6V4m6 11v-4\"/><circle cx=\"6\" cy=\"8\" r=\"2\"/><circle cx=\"12\" cy=\"8\" r=\"2\"/><circle cx=\"18\" cy=\"10\" r=\"2\"/>"
+  },
+  {
+    "id": "safety",
+    "label": "Safety & interactions",
+    "description": "Understanding how other medicines, comorbidities and physiology influence benefit and risk.",
+    "icon": "<path d=\"m12 2 8 4v6c0 5-8 10-8 10S4 17 4 12V6l8-4Z\"/><path d=\"m8 12 3 3 5-6\"/>"
+  },
+  {
+    "id": "adaptation",
+    "label": "Treatment adaptation",
+    "description": "Adapting treatment as response, tolerability and patient circumstances change.",
+    "icon": "<path d=\"M3 12a9 9 0 0 1 15-7l3 3M21 3v5h-5M21 12A9 9 0 0 1 6 19l-3-3M3 21v-5h5\"/>"
+  },
+  {
+    "id": "prescribing",
+    "label": "Personalised prescribing",
+    "description": "Bringing the evidence together to inform drug selection, dosing and monitoring.",
+    "icon": "<rect x=\"5\" y=\"4\" width=\"14\" height=\"18\" rx=\"2\"/><path d=\"M9 4V2h6v2M9 10h6M9 14h6M9 18h3\"/>"
+  }
+]

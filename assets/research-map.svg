@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 520" role="img" aria-labelledby="title desc">
+  <title id="title">Connecting treatment histories, pharmacology and AI</title>
+  <desc id="desc">A conceptual illustration of treatment timelines connected to a network of pharmacological knowledge and a model of treatment. It does not show measured data.</desc>
+  <defs>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#b6d2c0" opacity=".19"/></pattern>
+    <linearGradient id="fade" x2="0" y2="1"><stop stop-color="#244d40"/><stop offset="1" stop-color="#163d30"/></linearGradient>
+  </defs>
+  <rect width="560" height="520" rx="8" fill="url(#fade)"/>
+  <rect width="560" height="520" rx="8" fill="url(#grid)"/>
+  <g font-family="Arial, sans-serif" font-size="10" letter-spacing="2" fill="#d1e0d5">
+    <text x="32" y="43">CONNECTED PERSPECTIVES</text><text x="32" y="491" fill="#a3c3ad">TREATMENT · KNOWLEDGE · LEARNING</text>
+  </g>
+  <path d="M32 61H528" stroke="#b6d2c0" opacity=".25"/>
+  <g stroke="#95bba6" stroke-width="1" fill="none" opacity=".6">
+    <path d="M144 186C180 186 196 203 233 237"/><path d="M144 214C191 214 202 226 233 237"/>
+    <path d="M144 242C195 242 202 237 233 237"/>
+    <path d="M285 181L341 209L332 275L270 299L233 237Z"/>
+    <path d="M233 237L341 209M285 181L332 275M233 237L332 275M285 181L270 299"/>
+    <path d="M341 209C366 209 365 241 400 241M332 275C366 275 367 241 400 241"/>
+  </g>
+  <g stroke-width="5" stroke-linecap="round">
+    <path d="M47 186H77M89 186H144" stroke="#b4cf9f"/><path d="M47 214H106M119 214H144" stroke="#d9c8eb"/>
+    <path d="M47 242H63M75 242H118M130 242H144" stroke="#e6bc9c"/>
+  </g>
+  <g fill="#b4cf9f" stroke="#214b3b" stroke-width="5"><circle cx="285" cy="181" r="11"/><circle cx="233" cy="237" r="11"/><circle cx="270" cy="299" r="11"/></g>
+  <g fill="#d9c8eb" stroke="#214b3b" stroke-width="5"><circle cx="341" cy="209" r="11"/><circle cx="332" cy="275" r="11"/></g>
+  <circle cx="285" cy="240" r="5" fill="#e6bc9c"/>
+  <g fill="none" stroke="#c8dcc2"><circle cx="439" cy="241" r="39" opacity=".35"/><circle cx="439" cy="241" r="27" opacity=".65"/><circle cx="439" cy="241" r="14"/></g>
+  <circle cx="439" cy="241" r="4" fill="#e6bc9c"/>
+  <g font-family="Arial, sans-serif" text-anchor="middle" fill="#f1f3e9" font-size="13">
+    <text x="96" y="336">Treatment histories</text><text x="285" y="336">Pharmacology</text><text x="439" y="336">AI models</text>
+  </g>
+  <path d="M32 385H528" stroke="#b6d2c0" opacity=".25"/>
+  <g font-family="Georgia, serif" fill="#f1f3e9" font-size="22"><text x="32" y="424">Different data. A shared question.</text></g>
+  <g font-family="Arial, sans-serif" fill="#bcd0c2" font-size="13"><text x="32" y="449">Why do treatment responses differ?</text></g>
+</svg>

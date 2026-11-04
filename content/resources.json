@@ -1,0 +1,27 @@
+[
+  {
+    "slug": "reusable-health-data",
+    "number": "04",
+    "category": "REPRODUCIBLE DATA ENGINEERING",
+    "title": "Making health data ready for research",
+    "summary": "Building transparent medication-processing workflows, with traceability from survey responses to research-ready data.",
+    "status": "Supporting methods & resources",
+    "tags": [
+      "GLAD",
+      "Harmonisation",
+      "Reproducibility"
+    ],
+    "question": "How can we make medication data consistent and reusable without losing what the original responses mean?",
+    "body": [
+      "Reliable analysis starts with reliable data. My work on medication data processing uses explicit source specifications, harmonisation rules, validation and medication mapping to make each transformation inspectable.",
+      "The GLAD medication pilot provides a starting point for workflows that can support related cohorts and surveys. A central concern is preserving source identity, missing-value meanings and questionnaire context."
+    ],
+    "approach": [
+      "Validate incoming data against a documented source specification.",
+      "Apply consistent processing and mapping rules with explicit provenance.",
+      "Produce quality-control reports that support review and reuse."
+    ],
+    "perspective": "A research-ready dataset needs more than a clean table: it needs a record of what changed, why it changed and which uncertainties remain.",
+    "colour": "blue"
+  }
+]

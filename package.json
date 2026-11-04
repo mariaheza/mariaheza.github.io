@@ -1,0 +1,10 @@
+{
+  "name": "maria-herrero-zazo-website",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Maria Herrero-Zazo's professional website and Markdown blog",
+  "scripts": {"build": "node scripts/build.mjs", "check": "node scripts/check.mjs"},
+  "dependencies": {"marked": "17.0.5"},
+  "engines": {"node": ">=22"}
+}
